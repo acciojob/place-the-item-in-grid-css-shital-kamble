@@ -3,11 +3,10 @@
 holder{
 	width: 90%;
 	margin: 50px auto;
-	border: 1px solid black;
 	color:white;
 	display:grid;
 	grid-template-rows: 200px 200px;
 	grid-template-columns: 200px 200px;
 }
-.holder{ background : red; }
-.holder{ background : blue; }
+.holder1{ background : red; }
+.holder2{ background : blue; }
