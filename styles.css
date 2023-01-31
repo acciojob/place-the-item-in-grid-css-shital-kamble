@@ -1,13 +1,7 @@
-*{
-	margin:0; padding:0;
- }
-holder{
-	width: 90%;
-	margin: 50px auto;
-	color:white;
-	display:grid;
-	grid-template-rows: 200px 200px;
-	grid-template-columns: 200px 200px;
+.holder {
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: repeat(2, 200px);
+    width: 200px;
+    height: 200px;
 }
-.holder1{ background : red; }
-.holder2{ background : blue; }
